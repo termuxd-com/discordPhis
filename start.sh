@@ -37,9 +37,10 @@ echo -e "\e[37m"
 cd api/assets
 cat accounts.txt
 echo -e '\033[31;40;1m'
-read -p "Press e to return to the main page" xp
+read -p "Press any key to return to the main page : " xp
 clear
 sleep 2
+cd ..
 cd ..
 bash start.sh
 else
